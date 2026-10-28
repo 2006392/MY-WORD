@@ -1,0 +1,8 @@
+【部署说明】
+1. 安装 Python 3.8+
+2. 安装依赖: pip install -r requirements.txt
+3. 设置智谱APIKey环境变量（Windows）:
+   setx ZHIPU_API_KEY "你的Key"   （设置后需重开命令行窗口）
+4. 启动: streamlit run app.py --server.port 8501
+5. 浏览器访问 http://localhost:8501
+6. 点击「🚨 反诈演练」验证完整链路
